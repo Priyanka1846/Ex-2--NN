@@ -95,9 +95,9 @@ x = df.iloc[:,0:3].values
 x = x[0:100, 0:2]
 y = y[0:100]
 #plot Iris Setosa samples
-plt.scatter(x[:50,0], x[:50,1], color='orange', marker='o', label='Setosa')
+plt.scatter(x[:50,0], x[:50,1], color='black', marker='o', label='Setosa')
 #plot Iris Versicolour samples
-plt.scatter(x[50:100,0], x[50:100,1], color='blue', marker='x', label='Versicolour')
+plt.scatter(x[50:100,0], x[50:100,1], color='red', marker='x', label='Versicolour')
 #show the legend
 plt.xlabel("Sepal length")
 plt.ylabel("Petal length")
@@ -124,7 +124,7 @@ plt.show()
 # OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/ee45b926-6dfe-4351-b2c6-40db03452086)
-![image](https://github.com/user-attachments/assets/229bbb3e-1680-4d7b-a42d-f5c5f96392b2)
+![image](https://github.com/user-attachments/assets/cae45d8f-9c0a-44c9-a960-daf79b9e152c)
 ![image](https://github.com/user-attachments/assets/2e07d642-0820-4310-b5b2-0e17cfb8e0c0)
 
 # RESULT:

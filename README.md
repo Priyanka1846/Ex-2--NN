@@ -85,7 +85,7 @@ class Perceptron:
         return np.where(self.f(x) >= 0,1,-1)
 ```
 ```
-df = pd.read_csv("/content/iris (1).csv")
+df = pd.read_csv("/content/iris.csv")
 print(df.head())
 # extract the label column
 y = df.iloc[:,4].values
